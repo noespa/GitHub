@@ -80,9 +80,9 @@
                             d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z">
                         </path>
                     </svg>
-                    <div class="text-xl text-blue-600"><a href="#" class="hover:underline">noespa</a></div>
+                    <div class="text-xl text-blue-600"><a href="#" class="hover:underline">alpinejs</a></div>
                     <span class="text-xl text-gray-600">/</span>
-                    <div class="text-xl font-semibold text-blue-600"><a href="#" class="hover:underline">video game</a>
+                    <div class="text-xl font-semibold text-blue-600"><a href="#" class="hover:underline">alpine</a>
                     </div>
                 </div>
                 <div class="flex space-x-2 text-xs ">
@@ -599,18 +599,72 @@
             </div><!-- end readme-container -->
         </div>
 
-        <div class="w-1/4 sidebar">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate non dolorem libero nam
-            assumenda? Sit sint corporis placeat, officia quos rem voluptatibus fuga voluptate eum? Dolorum
-            possimus incidunt repellat nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            possimus iste suscipit dolorum, enim voluptates cum corrupti? Nemo ea, vel tempore iste voluptas
-            nihil a illo veniam numquam accusantium? Amet culpa odit numquam ipsa suscipit iure commodi vitae
-            veniam tenetur! Possimus molestias ipsum laboriosam doloremque tempora magni recusandae expedita!
-            Quas iure voluptatum, similique molestias ipsam sint odit harum praesentium debitis odio nam
-            laudantium ipsa iste vero accusamus commodi ut autem natus quos illum modi! Vel ad, necessitatibus
-            dolores, fuga similique deserunt, unde animi illo itaque beatae pariatur dolor iure quae
-            exercitationem temporibus repellat numquam! Consequuntur quaerat nemo nisi tenetur blanditiis?
-        </div>
+        <div class="w-1/4 text-gray-800 sidebar">
+            <div class="about-section">
+                <div class="flex items-center justify-between mb-3">
+                    <h4 class="font-semibold">About</h4>
+                    <a href="#" class="hover:text-blue-500">
+                        <svg class="w-5 h-5 " fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <p>A rugged, minimal framework for composing JavaScript behavior in your
+                    markup.</p>
+                <a href="#" class="flex items-center mt-3 space-x-3 text-sm text-gray-600 hover:text-blue-600">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+                        </path>
+                    </svg>
+                    <div>Readme</div>
+                </a>
+                <a href="#" class="flex items-center mt-3 space-x-3 text-sm text-gray-600 hover:text-blue-600">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3">
+                        </path>
+                    </svg>
+                    <div>MIT License</div>
+                </a>
+
+            </div> <!-- end about-section -->
+            <div class="mt-5 border-t border-gray-200 releases-section">
+                <div class="flex items-baseline mt-5">
+                    <h4 class="font-semibold">Releases</h4>
+                    <div class="px-1.5 ml-2 text-xs bg-gray-200 rounded-xl">71</div>
+                </div>
+            </div> <!-- end releases-section -->
+            <div class="mt-5 border-t border-gray-200 sponsors-section">
+                <div class="flex items-baseline mt-5">
+                    <h4 class="font-semibold">Sponsor this projects</h4>
+                </div>
+            </div> <!-- end sponsors-section -->
+            <div class="mt-5 border-t border-gray-200 used-by-section">
+                <div class="flex items-baseline mt-5">
+                    <h4 class="font-semibold">Used by</h4>
+                    <div class="px-1.5 ml-2 text-xs bg-gray-200 rounded-xl">7.7k</div>
+                </div>
+            </div> <!-- end used-by-section -->
+            <div class="mt-5 border-t border-gray-200 contributors-section">
+                <div class="flex items-baseline mt-5">
+                    <h4 class="font-semibold">Contributors</h4>
+                    <div class="px-1.5 ml-2 text-xs bg-gray-200 rounded-xl">94</div>
+                </div>
+            </div> <!-- end contributors-section -->
+            <div class="mt-5 border-t border-gray-200 languages-section">
+                <div class="flex items-baseline mt-5">
+                    <h4 class="font-semibold">Languages</h4>
+                </div>
+            </div> <!-- end languages-section -->
+        </div> <!-- end right sidebar -->
     </div>
     <footer
         class="container flex justify-between px-3 py-10 mx-auto mb-4 text-xs text-gray-500 border-t border-gray-200 ">
