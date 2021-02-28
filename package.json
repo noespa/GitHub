@@ -16,5 +16,9 @@
         "lodash": "^4.17.19",
         "postcss": "^8.2.6",
         "tailwindcss": "^2.0.3"
+    },
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "wowjs": "^1.1.3"
     }
 }

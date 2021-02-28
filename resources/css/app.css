@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import '~animate.css';
+
+@keyframes scroll {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+.scroller {
+    animation: 5s scroll alternate infinite ease-in-out;
+}

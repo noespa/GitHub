@@ -9,6 +9,8 @@ module.exports = {
         extend: {
             spacing: {
                 '72': '18rem',
+                '128': '32rem',
+                '160': '40rem',
             },
             colors: {
                 'chateau-green': {
@@ -22,12 +24,16 @@ module.exports = {
                     '700': '#217138',
                     '800': '#1a5b2d',
                     '900': '#164a25'
-                }
+                },
+                'orange': '#ff2d20',
             },
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+            transform: ['hover', 'focus', 'group-hover'],
+        },
     },
     plugins: [],
 }

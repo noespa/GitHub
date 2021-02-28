@@ -641,16 +641,69 @@
                     <h4 class="font-semibold">Releases</h4>
                     <div class="px-1.5 ml-2 text-xs bg-gray-200 rounded-xl">71</div>
                 </div>
+                <a href="#" class="flex items-baseline mt-4 group">
+                    <svg class="w-4 h-4 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z">
+                        </path>
+                    </svg>
+                    <span class="ml-2">
+                        <span class="text-sm font-semibold group-hover:text-blue-600">v2.8.1</span>
+                        <div
+                            class="inline-block px-2 ml-2 text-xs font-semibold text-green-700 border border-green-600 rounded-full">
+                            Latest
+                        </div>
+                        <div class="text-xs text-gray-600">5 days ago</div>
+                    </span>
+                </a>
+                <a href="#" class="inline-block mt-4 text-xs text-blue-700 hover:underline">+ 71 releases</a>
             </div> <!-- end releases-section -->
             <div class="mt-5 border-t border-gray-200 sponsors-section">
                 <div class="flex items-baseline mt-5">
                     <h4 class="font-semibold">Sponsor this projects</h4>
+                </div>
+                <div class="mt-4">
+                    <a href="#" class="flex items-center space-x-2 group">
+                        <img src="http://placeimg.com/640/480/people" alt="avatar"
+                            class="w-10 h-10 border-2 border-white rounded-full">
+                        <span class="text-sm font-semibold group-hover:text-blue-600">calebporzio</span>
+                        <span class="text-sm text-gray-500">Caleb Porzio</span>
+                    </a>
+                    <button
+                        class="flex justify-center w-full py-2 mt-4 border border-gray-300 rounded-lg group bg-gray-50 hover:bg-gray-100">
+                        <svg class="w-5 h-5 text-pink-400 transform group-hover:scale-110" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                            </path>
+                        </svg>
+                        <span class="ml-3 text-sm text-gray-800">Sponsor</span>
+                    </button>
+                    <a href="#" class="inline-block mt-4 text-xs text-blue-700 hover:underline">Learn more about GitHub
+                        Sponsors</a>
                 </div>
             </div> <!-- end sponsors-section -->
             <div class="mt-5 border-t border-gray-200 used-by-section">
                 <div class="flex items-baseline mt-5">
                     <h4 class="font-semibold">Used by</h4>
                     <div class="px-1.5 ml-2 text-xs bg-gray-200 rounded-xl">7.7k</div>
+                </div>
+
+                <div class="mt-4">
+                    <a href="#" class="flex items-center -space-x-2">
+                        <img src="http://placeimg.com/640/480/people" alt="avatar"
+                            class="w-8 h-8 border-2 border-white rounded-full">
+                        <img src="http://placeimg.com/640/480/animals" alt="avatar"
+                            class="w-8 h-8 border-2 border-white rounded-full">
+                        <img src="http://placeimg.com/640/480/abstract" alt="avatar"
+                            class="w-8 h-8 border-2 border-white rounded-full">
+                        <img src="http://placeimg.com/640/480/animals" alt="avatar"
+                            class="w-8 h-8 border-2 border-white rounded-full">
+                        <img src="http://placeimg.com/640/480/people" alt="avatar"
+                            class="w-8 h-8 border-2 border-white rounded-full">
+                        <span class="text-xs text-blue-600 hover:underline" style="margin-left: 0.5rem;">+ 8,676</span>
+                    </a>
                 </div>
             </div> <!-- end used-by-section -->
             <div class="mt-5 border-t border-gray-200 contributors-section">
@@ -662,6 +715,20 @@
             <div class="mt-5 border-t border-gray-200 languages-section">
                 <div class="flex items-baseline mt-5">
                     <h4 class="font-semibold">Languages</h4>
+                </div>
+                <div class="flex mt-4">
+                    <div class="w-11/12 h-2 bg-yellow-300 rounded-md rounded-r-none"></div>
+                    <div class="w-1/12 h-2 bg-purple-500 rounded-md rounded-l-none"></div>
+                </div>
+                <div class="flex mt-3 ml-1 space-x-6 text-xs">
+                    <div class="flex items-baseline space-x-2 ">
+                        <div class="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                        <span class="font-semibold">JavaScript </span><span>93%</span>
+                    </div>
+                    <div class="flex items-baseline space-x-2 ">
+                        <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
+                        <span class="font-semibold">Other </span><span>7%</span>
+                    </div>
                 </div>
             </div> <!-- end languages-section -->
         </div> <!-- end right sidebar -->
