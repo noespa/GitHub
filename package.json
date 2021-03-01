@@ -18,6 +18,8 @@
         "tailwindcss": "^2.0.3"
     },
     "dependencies": {
+        "@nuxtjs/markdownit": "^2.0.0",
+        "@tailwindcss/typography": "^0.4.0",
         "animate.css": "^4.1.1",
         "wowjs": "^1.1.3"
     }
